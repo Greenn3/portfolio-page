@@ -53,6 +53,9 @@
 
 /* Full-page layout */
 body, html {
+        font-size: 100%; /* Ensure default scaling */
+    transform: none; /* Remove accidental shrinking */
+    zoom: 1; /* Reset any zoom */
    
     width: 100%;
     min-height: 100vh;
