@@ -3,7 +3,7 @@ const projects = [
         title: "Itemfinder",
          desc: "Virtual lost and found office",
         tech: "JAVA | SPRING | HTML | CSS | JS | Thymeleaf | PostgeSQL",
-           picture: "/assets/pictures/itemfinder3.png",
+           picture: "./assets/pictures/itemfinder3.png",
             long_desc: `
 <p>
     A <strong>self-hosted web platform</strong> for reporting, browsing, and coordinating lost & found items 
@@ -21,15 +21,15 @@ const projects = [
                
               
                links: [
-                {url: "https://github.com/Greenn3/itemfinder", logo:"/assets/pictures/github2.png", desc_tooltip: "Github repo"},
-                {url: "https://itemfinder.net/", logo:"/assets/pictures/web-app.png", desc_tooltip: "The app"},
-                {url: "https://info.itemfinder.net/", logo:"/assets/pictures/web-site.png", desc_tooltip: "Info website"},
+                {url: "https://github.com/Greenn3/itemfinder", logo:"./assets/pictures/github2.png", desc_tooltip: "Github repo"},
+                {url: "https://itemfinder.net/", logo:"./assets/pictures/web-app.png", desc_tooltip: "The app"},
+                {url: "https://info.itemfinder.net/", logo:"./assets/pictures/web-site.png", desc_tooltip: "Info website"},
                ]
                
             },
 
 
-     { title: "Lodgify", desc: "A simple PMS for accommodations", tech: "JAVA | SPRING | JAVAFX | MySQL | Hibernate | JPA", picture: "/assets/pictures/lodgify.png",
+     { title: "Lodgify", desc: "A simple PMS for accommodations", tech: "JAVA | SPRING | JAVAFX | MySQL | Hibernate | JPA", picture: "./assets/pictures/lodgify.png",
             long_desc:`
             
 
@@ -45,13 +45,13 @@ const projects = [
 </ul>`,
 
             links: [
-               {url: "https://github.com/Greenn3/demosystemFront", logo: "/assets/pictures/github2.png", desc_tooltip: "Desktop app Github repo"},
-               {url: "https://github.com/Greenn3/ServerSide", logo: "/assets/pictures/github2.png", desc_tooltip: "Server app Github repo"}
+               {url: "https://github.com/Greenn3/demosystemFront", logo: "./assets/pictures/github2.png", desc_tooltip: "Desktop app Github repo"},
+               {url: "https://github.com/Greenn3/ServerSide", logo: "./assets/pictures/github2.png", desc_tooltip: "Server app Github repo"}
               
             ]
          },
 
-    { title: "Neural Network", desc: "Basic AI model", tech: "Java | JavaFX", picture: "/assets/pictures/neural-network.png",
+    { title: "Neural Network", desc: "Basic AI model", tech: "Java | JavaFX", picture: "./assets/pictures/neural-network.png",
     long_desc:`
    <p>
     A <strong>simple feedforward neural network</strong> that classifies handwritten letters (A–J) 
@@ -68,12 +68,12 @@ const projects = [
 
 `,
 links:[
-   {url: "https://github.com/Greenn3/NeuralNetwork", logo: "/assets/pictures/github2.png", desc_tooltip: "Github repo"},
+   {url: "https://github.com/Greenn3/NeuralNetwork", logo: "./assets/pictures/github2.png", desc_tooltip: "Github repo"},
 ]
 
 },
 
-    { title: "2048", desc: "Classic puzzle game", tech: "Kotlin | ComposeForWeb",picture: "/assets/pictures/2048.png",
+    { title: "2048", desc: "Classic puzzle game", tech: "Kotlin | ComposeForWeb",picture: "./assets/pictures/2048.png",
 long_desc: `
 <p>
     A <strong>browser-based sliding tile puzzle</strong> where players combine numbered tiles to reach 2048. 
@@ -90,13 +90,13 @@ long_desc: `
 
 `,
 links:[
-{url: "https://github.com/Greenn3/2048", logo: "/assets/pictures/github2.png", desc_tooltip: "Github repo"},
-{url:"https://greenn3.github.io/2048/", logo:"/assets/pictures/game-icon.png", desc_tooltip: "Play now"}
+{url: "https://github.com/Greenn3/2048", logo: "./assets/pictures/github2.png", desc_tooltip: "Github repo"},
+{url:"https://greenn3.github.io/2048/", logo:"./assets/pictures/game-icon.png", desc_tooltip: "Play now"}
 ]
 
      },
 
-    { title: "Minesweeper", desc: "Classic game recreation", tech: "Kotlin | ComposeForWeb",picture: "/assets/pictures/Minesweeper.png",
+    { title: "Minesweeper", desc: "Classic game recreation", tech: "Kotlin | ComposeForWeb",picture: "./assets/pictures/Minesweeper.png",
     long_desc:  
     `
    <p>
@@ -113,8 +113,8 @@ links:[
        `,
 
        links:[
-         {url: "https://github.com/Greenn3/Minesweeper2", logo: "/assets/pictures/github2.png", desc_tooltip: "Github repo"},
-         {url:"https://greenn3.github.io/Minesweeper2/", logo:"/assets/pictures/game-icon.png", desc_tooltip: "Play now"}
+         {url: "https://github.com/Greenn3/Minesweeper2", logo: "./assets/pictures/github2.png", desc_tooltip: "Github repo"},
+         {url:"https://greenn3.github.io/Minesweeper2/", logo:"./assets/pictures/game-icon.png", desc_tooltip: "Play now"}
        ]
      },
 
