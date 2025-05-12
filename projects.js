@@ -1,4 +1,33 @@
 const projects = [
+        { 
+        title: "YouTubeViever",
+         desc: "work in progress",
+        tech: "JAVA | SPRING | HTML | CSS | JS | Thymeleaf | MongoDB",
+          
+            long_desc: `
+<p>
+    A <strong>self-hosted YouTube manager</strong> using the YouTube API and Google OAuth for experimenting with categorized video viewing. 
+    <strong>Core Features:</strong>
+</p>
+<ul>
+    <li><strong>Authentication:</strong> Google OAuth integration for secure access.</li>
+    <li><strong>Categories:</strong> Group subscribed channels and filter videos accordingly.</li>
+    <li><strong>Viewer:</strong> Browse videos via category-based filters. (<strong>YouTube Data API</strong>)</li>
+    <li><strong>Status:</strong> 🚧 In Progress — High quota usage may limit full functionality.</li>
+</ul>
+
+            `,
+
+
+               
+              
+               links: [
+                {url: "https://github.com/Greenn3/itemfinder", logo:"./assets/pictures/github2.png", desc_tooltip: "Github repo"},
+                {url: "https://itemfinder.net/", logo:"./assets/pictures/web-app.png", desc_tooltip: "The app"},
+                {url: "https://info.itemfinder.net/", logo:"./assets/pictures/web-site.png", desc_tooltip: "Info website"},
+               ]
+               
+            },
     { 
         title: "Itemfinder",
          desc: "Virtual lost and found office",
