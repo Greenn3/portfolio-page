@@ -22,9 +22,8 @@ const projects = [
                
               
                links: [
-                {url: "https://github.com/Greenn3/itemfinder", logo:"./assets/pictures/github2.png", desc_tooltip: "Github repo"},
-                {url: "https://itemfinder.net/", logo:"./assets/pictures/web-app.png", desc_tooltip: "The app"},
-                {url: "https://info.itemfinder.net/", logo:"./assets/pictures/web-site.png", desc_tooltip: "Info website"},
+                {url: "https://github.com/Greenn3/YouTubeViewer", logo:"./assets/pictures/github2.png", desc_tooltip: "Github repo"}
+        
                ]
                
             },
